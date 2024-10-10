@@ -58,7 +58,5 @@ public class Main {
         System.out.println(series.getAñoEstreno());
         series.setAñoEstreno(2022);
         System.out.println(series.getAñoEstreno());
-
-
     }
 }
