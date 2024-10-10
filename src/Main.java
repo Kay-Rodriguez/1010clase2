@@ -30,6 +30,7 @@ public class Main {
         cancion cancion1 =new cancion("Ojos Marrones","Eva","Lasso",3.45,294);
         cancion cancion2 =new cancion("Dueles Tan bien ","Moustruos","Bruses",2.54,294);
         cancion cancion3 =new cancion("Amapola ","La Cumbia une a Latinoamerica","Los Cumbia y PapayaDada",3.11,46);
+        cancion cancion= new cancion();
         cancion1.imprimirCanciones();
         cancion2.imprimirCanciones();
         cancion3.imprimirCanciones();
@@ -40,6 +41,23 @@ public class Main {
         System.out.println(cancion1.getDuracion());
         cancion1.setDuracion(3.54);
         System.out.println(cancion1.getDuracion());
+
+        Series series = new Series("BLACK MIRROR",6,2011,45.15,27);
+        Series series2 = new Series("THE OFFICE",9,2005,28.45,201);
+        Series series3 = new Series("GAME OF THRONES",8,2011,60.00,73);
+
+        series.imprimirSeries();
+        System.out.println(series.imprimirEpisodios());
+
+        series2.imprimirSeries();
+        System.out.println(series2.imprimirEpisodios());
+
+        series3.imprimirSeries();
+        System.out.println(series3.imprimirEpisodios());
+
+        System.out.println(series.getAñoEstreno());
+        series.setAñoEstreno(2022);
+        System.out.println(series.getAñoEstreno());
 
 
     }

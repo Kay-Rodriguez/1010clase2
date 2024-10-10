@@ -15,7 +15,8 @@ public class cancion {
         this.duracion = duracion;
         this.reproducciones = reproducciones;
     }
-
+public cancion (){
+}
     //getters
 
     public int getReproducciones() {
@@ -60,6 +61,9 @@ public class cancion {
     public void setReproducciones(int reproducciones) {
         this.reproducciones = reproducciones;
     }
+// geterr y setter
+
+    // metodo personalizado
 
     public void imprimirCanciones() {
         System.out.println("El nombre es:" + this);
