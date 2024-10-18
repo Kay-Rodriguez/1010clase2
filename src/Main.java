@@ -6,13 +6,9 @@ public class Main {
         System.out.println("los libro de la biblioteca son:");
         //para declaerar el objeto , para intanciar una clase
         libro libro1 = new libro("el resplandor", "stephen king", "de bolsillo", 600);
-
         libro libro2 = new libro("ciudades de papel", "John Green", "SA de CV", 368);
-
         libro libro3 = new libro("invisible", "Eloy Moreno", "Nube de Tinta", 304);
-
         libro libro4 = new libro("El Diario de Ana frank", "Ana Frank", "Casa del libro", 150);
-
         libro libro5 = new libro("La sombra del viento", "Carlos Ruiz Zafón", "Planeta", 490);
         libro1.imprimir();
         System.out.println(libro1.imprimircubierta());
@@ -58,5 +54,12 @@ public class Main {
         System.out.println(series.getAñoEstreno());
         series.setAñoEstreno(2022);
         System.out.println(series.getAñoEstreno());
-    }
+///////////////
+
+        Autos auto1 = new Autos("Toyota", "Corolla");
+        Autos auto2 = new Autos("Honda", "Civic");
+        auto1.imprimirAuto();
+        auto2.imprimirAuto();
+
+         }
 }
