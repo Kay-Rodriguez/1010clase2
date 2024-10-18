@@ -65,6 +65,7 @@ public class Main {
 ////persona
   Persona persona1 = new Persona("karla","Rodriguez","Ecuatoriana",1753051166,20);
   Persona persona2 = new Persona("Isaac", "Quinapallo","Ecuatorina",1723787273,20);
-
+    persona1.imprimirPersona();
+    persona2.imprimirPersona();
          }
 }
