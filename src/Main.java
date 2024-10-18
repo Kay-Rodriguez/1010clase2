@@ -1,7 +1,9 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner =new Scanner(System.in);
         System.out.printf("Hello and welcome!");
         System.out.println("los libro de la biblioteca son:");
         //para declaerar el objeto , para intanciar una clase
@@ -54,12 +56,15 @@ public class Main {
         System.out.println(series.getAñoEstreno());
         series.setAñoEstreno(2022);
         System.out.println(series.getAñoEstreno());
-///////////////
+/////////////// autos
+        Autos auto1 = new Autos("suzuki" ,"swift","rojo","pbd96561",2023);
+        Autos auto2 = new Autos("kia","sporttage","negro","gb2345",2015);
 
-        Autos auto1 = new Autos("Toyota", "Corolla");
-        Autos auto2 = new Autos("Honda", "Civic");
         auto1.imprimirAuto();
         auto2.imprimirAuto();
+////persona
+  Persona persona1 = new Persona("karla","Rodriguez","Ecuatoriana",1753051166,20);
+  Persona persona2 = new Persona("Isaac", "Quinapallo","Ecuatorina",1723787273,20);
 
          }
 }

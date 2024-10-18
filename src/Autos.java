@@ -5,12 +5,12 @@ public class Autos {
     String placa;
     int anio;
 
-    public Autos(String marca, String modelo, int anio, String color, String placa) {
+    public Autos(String marca, String modelo, String color, String placa, int anio) {
         this.marca = marca;
         this.modelo = modelo;
-        this.anio = anio;
         this.color = color;
         this.placa = placa;
+        this.anio = anio;
     }
 
     public String getMarca() {
@@ -29,14 +29,6 @@ public class Autos {
         this.modelo = modelo;
     }
 
-    public int getAnio() {
-        return anio;
-    }
-
-    public void setAnio(int anio) {
-        this.anio = anio;
-    }
-
     public String getColor() {
         return color;
     }
@@ -45,15 +37,23 @@ public class Autos {
         this.color = color;
     }
 
-    public String getplaca() {
+    public String getPlaca() {
         return placa;
     }
 
-    public void setKilometraje(String getplaca) {
+    public void setPlaca(String placa) {
         this.placa = placa;
     }
 
-    public void imprimirAuto() {
+    public int getAnio() {
+        return anio;
+    }
+
+    public void setAnio(int anio) {
+        this.anio = anio;
+    }
+
+    public void imprimirAuto(){
         System.out.println("Auto: " + marca + ", Modelo: " + modelo + ", Año: " + anio + ", Color: " + color + " placa" + placa);
     }
 }
